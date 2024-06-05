@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+content {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Блок заголовку */
+.title {
+    width: auto;
+    padding: 10px;
+    margin-top: 20px;
+
+    background: rgb(253, 48, 48);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Блок товарів*/
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+/* Блок окремого товару */
+.item {
+    min-width: 250px;
+    /* min-height: 200px; */
+    margin-bottom: 10px;
+    padding: 10px;
+
+    background-color: #ffffff;
+
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Блок назви товару */
+.item-title{
+    font-weight: bold;
+}
+
+.mark {
+    border: 0;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* Блок зображення  */
+.item-image {
+    display: flex;
+    gap: 10px;
+    
+}
+.item-image img{
+    height: 300px;
+    
+}
+
+
+
+/* Блок ціни */
+.price {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+/* Блок бонусної ціни */
+.bonus {
+    background: rgb(166, 224, 246);
+    color: rgb(62, 47, 3);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+/* Блок контактів */
+.contacts p {
+    margin: 3px;
+}
+
+.contacts p:first-child {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contacts p:last-child {
+    border-left: 3px solid rgb(253, 48, 48);
+}
+
+/* Блок інформації */
+.info {
+    font-size: 9px;
+    text-align: justify;
+    color: rgb(120, 120, 120);
+
+}
+
+.user-photo {
+    width: 180px;
+    
+}
